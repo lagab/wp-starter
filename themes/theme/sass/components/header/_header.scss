@@ -1,0 +1,39 @@
+.site-header {
+    grid-area: header;
+    .top-header {
+        padding: 10px;
+
+        .container {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+
+    .main-header {
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+            align-items: center;
+        }
+
+        .site-branding {
+            a {
+                img {
+                    width: 267px;
+                }
+            }
+        }
+
+        .main-navigation {
+            display: block;
+            width: auto;
+        }
+
+        /*.site-title,
+        .site-description {
+            display: none;
+        }*/
+    }
+}

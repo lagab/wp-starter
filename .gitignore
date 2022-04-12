@@ -5,7 +5,10 @@ build
 tmp
 backups
 upgrade
-languages
+languages/*
+node_modules
+uploads
+plugins
 
 # IDE & Editors
 .idea

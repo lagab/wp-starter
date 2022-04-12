@@ -1,0 +1,29 @@
+body {
+	background: $color__background-body; // Fallback for when there is no custom background color defined.
+}
+.container {
+	width: 1200px;
+	max-width: 100%;
+	margin: auto;
+	padding: 0 15px;
+}
+.blog,
+.archive,
+.post-template-default,
+.page-template-default {
+	#primary {
+		@extend .container;
+	}
+}
+
+@media screen and (min-width: 37.5em) {
+	.blog,
+	.archive,
+	.post-template-default,
+	.page-template-default {
+		#primary {
+			padding: 0px;
+		}
+	}
+	
+}
